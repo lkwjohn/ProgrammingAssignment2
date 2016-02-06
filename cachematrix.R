@@ -1,5 +1,7 @@
 ## Put comments here that give an overall description of what your
 #Step to use the matrix cahce function
+
+#Create 2 matrix using random variables
 #set.seed(1)
 #a <- makeCacheMatrix(matrix(runif(16,1, 10), ncol=4))
 #set.seed(2)
@@ -57,7 +59,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 #This function accept a input and check whether is there a matrix being stored before
-#if the matrix is not stored, then it will compute it and store it
+#if the matrix is not stored, then it will compute it and store it 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
     matrix <- x$getMatrix()
